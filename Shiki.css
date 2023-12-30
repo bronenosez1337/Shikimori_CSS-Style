@@ -165,7 +165,7 @@ body {
 }
 .b-footer_vote .vote-group .vote.no.selected, .b-footer_vote .vote-group .vote.no:hover {
     color: Maroon;
-    border-bottom-color: ;
+    /* border-bottom-color: ; */
     
 }
 /*
@@ -311,9 +311,8 @@ header.head a.misc, header.head a.edit,
 .p-topics .l-menu .clubs .entry,
 .p-topics .l-menu .critiques .entry,
 .l-top_menu .entry,
-.p-profiles .profile-head .c-history .entry,
-
- border: none; 
+.p-profiles .profile-head .c-history .entry{
+  border: none; 
 }
 
 .p-user_rates-index .list-groups .summary.lines.library{
@@ -779,6 +778,6 @@ b {
  	opacity: 0.9;
  	margin-top: 33px;
  	margin-bottom: 0px;
- 	border-radius: 0px;*/
+ 	border-radius: 0px;
 }
-}
+}*/
