@@ -1,2 +1,3 @@
 # Shikimori_CSS-Style
-My CSS custom style for shikimori.one 
+To add to the site, paste 
+@import url("https://raw.githubusercontent.com/bronenosez1337/Shikimori_CSS-Style/main/Shiki.css);
