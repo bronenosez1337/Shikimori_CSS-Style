@@ -15,8 +15,8 @@
 
 /*Изменение фоновой картинки.*/
 body {
-  /* --background_link: url(https://images.wallpaperscraft.ru/image/single/devushka_shkolnitsa_kurtka_1139214_1920x1080.jpg); 
-  background: fixed var(--background_link) no-repeat #000 fixed;*/
+  /* --background_link: url(https://images.wallpaperscraft.ru/image/single/devushka_shkolnitsa_kurtka_1139214_1920x1080.jpg);
+  background: fixed url(https://images.wallpaperscraft.ru/image/single/devushka_shkolnitsa_kurtka_1139214_1920x1080.jpg) no-repeat #000 fixed; */
   background-size: cover !important;
    /*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
   font-family: 'Open Sans', Arial, sans-serif;font-weight: 600;
