@@ -1,8 +1,9 @@
-/* AUTO=body_background */ body { background: url(http://img.desktopwallpapers.ru/sport/pics/wide/1920x1080/b674601bb1d46440c86e27fcf4b16c92.jpg) no-repeat fixed; }
+/* AUTO=body_background body { background: var no-repeat fixed; } */
 /*Изменение цвета выделения*/
 :root {
     --brick_color:#e74c3c;
     --dark_brick_color:#c0392b;
+    --background_link:url(http://img.desktopwallpapers.ru/sport/pics/wide/1920x1080/b674601bb1d46440c86e27fcf4b16c92.jpg)
   	/*--font-main: 'Open Sans', Arial,  sans-serif;*/
   
 }
@@ -13,8 +14,8 @@
 
 /*Изменение фоновой картинки.*/
 body {
- /*background: fixed url(http://img.desktopwallpapers.ru/sport/pics/wide/1920x1080/b674601bb1d46440c86e27fcf4b16c92.jpg) no-repeat #000 !important;
-  background-size: cover !important;*/
+ background: fixed var(--background_link) no-repeat #000 !important;
+  background-size: cover !important;
    /*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
  font-family: 'Open Sans', Arial, sans-serif;font-weight: 600;
 }
